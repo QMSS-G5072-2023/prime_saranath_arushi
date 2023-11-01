@@ -13,12 +13,6 @@ current_directory = os.getcwd()
 print("Current Working Directory:", current_directory)
 
 
-# In[6]:
-
-
-pip install pytest
-
-
 # In[7]:
 
 
