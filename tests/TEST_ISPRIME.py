@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
+# In[1]:
 
 
 import os
@@ -13,7 +13,13 @@ current_directory = os.getcwd()
 print("Current Working Directory:", current_directory)
 
 
-# In[5]:
+# In[6]:
+
+
+pip install pytest
+
+
+# In[7]:
 
 
 import os
@@ -29,7 +35,7 @@ current_directory = os.getcwd()
 print("New Working Directory:", current_directory)
 
 
-# In[9]:
+# In[8]:
 
 
 import math
@@ -58,6 +64,12 @@ def is_prime(n):
 # In[10]:
 
 
+import pytest
+
+
+# In[11]:
+
+
 # Defining the test cases with input numbers and expected results
 test_cases = [
     (2, True),    # 2 is a prime number
@@ -73,6 +85,12 @@ test_cases = [
 @pytest.mark.parametrize("number, expected_result", test_cases)
 def test_is_prime_param(number, expected_result):
     assert is_prime(number) == expected_result 
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
