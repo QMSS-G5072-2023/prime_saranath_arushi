@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "prime_as6723"
-version = "0.1.0"
+version = "1.2.0"
 description = "Package with the is_prime function and some tests!"
 authors = ["Arushi Saranath"]
 license = "MIT"
