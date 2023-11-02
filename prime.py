@@ -29,6 +29,5 @@ def is_prime(n):
 
 # In[ ]:
 
-
-
+is_prime(17)
 
